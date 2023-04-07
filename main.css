@@ -1,0 +1,68 @@
+#nav_bar{
+    margin: 0;
+    overflow: auto;
+    background-image: url('base3.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.bar_logo {
+    font-size: 33px;
+    color: rgb(0, 226, 177);
+    position: absolute;
+    padding-left: 20px;
+    
+    
+}
+.bar_logo a{
+    color: aqua;
+}
+
+.menu {
+    width: 60%;
+    overflow: hidden;
+    margin-left: 7cm;
+    list-style: none;
+  }
+  
+  .menu > li {
+    width: 20%; 
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: none;
+  }
+  
+  .menu a {
+    color: #ffffff;
+  }
+  
+  .submenu > li {
+    line-height: 50px;
+    background-color: none;
+
+  }
+  
+  .submenu {
+    height: 0; 
+    overflow: hidden;
+  }
+
+  .menu > li:hover {
+    background-color: none;
+    transition-duration: 0.5s;
+  }
+  
+  .menu > li:hover .submenu {
+    height: 250px; 
+    transition-duration: 1s;
+  }
+
